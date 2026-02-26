@@ -3,3 +3,4 @@
 node_modules/
 py_cache/
 .env
+dist/
