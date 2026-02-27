@@ -17,7 +17,8 @@
   "scripts": {
     "dev": "bun run --watch src/index.ts",
     "b": "bun build ./src/index.ts --outdir ./dist --target bun",
-    "prod": "bun run dist/index.js"
+    "prod": "bun run dist/index.js",
+    "db:push": "drizzle-kit push"
   },
   "type": "module",
   "dependencies": {

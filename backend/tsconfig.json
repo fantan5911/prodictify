@@ -4,7 +4,7 @@
     "module": "ESNext",
     "moduleResolution": "bundler",
     "types": ["bun-types"],
-    "baseUrl": ".",
+    "baseUrl": "./src/=",
     "paths": {
       "@/*": ["./src/*"]
     },
@@ -19,6 +19,6 @@
     "noEmit": true, // Важно! Bun не использует emit от TypeScript
     "allowImportingTsExtensions": true // Позволяет импортировать .ts файлы
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "dist"]
 }
